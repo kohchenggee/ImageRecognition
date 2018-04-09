@@ -7,9 +7,11 @@
     tools:context="com.example.asus_pc.imagerecognition.MainActivity">
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:id="@+id/image"/>
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnProgress" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
